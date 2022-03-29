@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML CSS JavaScript Portfolio Rezyume, SEO,Dasturlash,Front-End">
+    <meta name="author" content="Mirsaid Ismoilov">
+    <meta name="description" content="HTML CSS JavaScript asosida tuzilgan kichik sayt">
     <title>Art.Design</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-32x32.png">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
@@ -14,20 +18,19 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-
 </head>
 
 <body>
     <!----Header section start-->
-    <header>
+    <header id="header">
         <nav class="navbar">
             <div class="container">
                 <div class="navigation">
                     <div class="logo">
                         <a href="#">Art Design</a>
                     </div>
-                    <div class="navbar-nav">
-                        <i class="fas fa-bars"></i>
+                    <div class="navbar-nav" id="MenuItems">
+                        <i class="fas fa-bars" onclick="menutoggle()"></i>
                         <a href="#">Home</a>
                         <a href="#design">Design</a>
                         <a href="#blog">Blog</a>
@@ -249,13 +252,14 @@
         <div class="social-links">
             <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
             <a href="https://instagram.com/misteruzh1"><i class="fab fa-instagram"></i></a>
-            <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>          
+            <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
             <a href="https://telegram.org"><i class="fab fa-telegram"></i></a>
         </div>
         <span>Front-End blog</span>
     </footer>
 
     <!----End of footer section---->
-
+    <script src="./js/app.js"></script>
 </body>
+
 </html>
